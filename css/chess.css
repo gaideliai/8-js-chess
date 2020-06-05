@@ -4,16 +4,16 @@
     width: 90vmin;
     height: 90vmin;
     margin: 5vmin calc(50% - 45vmin);
-    border: 8px solid brown;
+    border: 6px solid brown;
     background-color: bisque;
     position: relative;
 }
     .container > .numbers{
         display: inline-block;
         float: left;
-        margin-top: 10%;
-        width: 10%;
-        height: 80%;
+        margin-top: 5%;
+        width: 5%;
+        height: 90%;
         text-align: center;
     }
         .container > .numbers > .number{
@@ -37,11 +37,11 @@
     .container > .letters{
             display: inline-block;
             float: left;
-            width: 80%;
-            height: 10%;          
+            width: 90%;
+            height: 5%;          
     }
         .container > .letters:nth-child(4){
-            margin-left: 10%;
+            margin-left: 5%;
         }
         .container > .letters > .letter{
             display: inline-block;
@@ -66,8 +66,8 @@
     .board{
         display: inline-block;
         float: left;
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
         background-color: #eee;
         position: absolute;
         top: 50%;

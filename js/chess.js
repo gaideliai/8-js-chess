@@ -31,7 +31,7 @@ for (let i=0; i<columnsCount; i++){
     if (i<=abc.length){
         LETTERS+=`<div class="letter"
                         style="width: calc(100% / ${columnsCount})">
-                        <div>${abc[i]}</div>
+                        <div>${abc[i].toUpperCase()}</div>
                     </div>`;
     }
 }
